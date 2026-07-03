@@ -24,3 +24,8 @@ test("search returns nothing when no note contains the term", () => {
   const result = matches(notes, "xyz");
   assert.strictEqual(result.length, 0);
 });
+
+test("search with an empty term matches every note", () => {
+  const result = matches(notes, "");
+  assert.strictEqual(result.length, notes.length);
+});
