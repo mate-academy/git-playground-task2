@@ -1,0 +1,1 @@
+search function modified, so it check for incuded text not exact text in notes.
