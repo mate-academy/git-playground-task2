@@ -1,1 +1,2 @@
 Korigovana je jedna linija coda koja sadrzi rec term
+
