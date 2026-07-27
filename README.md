@@ -12,7 +12,7 @@ Layout: `notes.js` is the entry point, `lib/store.js` loads, saves, and searches
 
 ### Set up
 1. Make sure you have your own copy of this repo (created from the lesson on the platform).
-2. Clone it locally and open Claude Code in the folder.
+2. Clone it locally and open Claude Code in the folder.[
 
 ### Lesson 2 task — let Claude write the commit message
 **Heads-up: the tests start red on purpose.** The repo ships with one bug, your job is to fix it, then let Claude commit the fix with a clear message.
