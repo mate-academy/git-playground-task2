@@ -1,0 +1,1 @@
+Fix search command to match notes containing the search term
