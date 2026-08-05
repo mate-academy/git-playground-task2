@@ -5,9 +5,9 @@
 
 ## Claude message
 
-##commit 40e6c5179b22816dd73fb57b40459fad85890d98 (HEAD -> fix/notes-search-substring-match)
-##Author: lehmoja <107406589+lehmoja@users.noreply.github.com>
-##Date:   Wed Aug 5 11:14:42 2026 +0300
+## "commit 40e6c5179b22816dd73fb57b40459fad85890d98 (HEAD -> fix/notes-search-substring-match)"
+## "Author: lehmoja <107406589+lehmoja@users.noreply.github.com>"
+## "Date:   Wed Aug 5 11:14:42 2026 +0300"
 
 #    Fix notes search to match substrings instead of exact text
 
