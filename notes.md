@@ -1,0 +1,1 @@
+fix matches function in lib/store.js for proper search
