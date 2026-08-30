@@ -1,0 +1,1 @@
+Correction to the store.js file, on line 41.
