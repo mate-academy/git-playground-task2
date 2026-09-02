@@ -39,14 +39,23 @@ function main() {
       }
       break;
     }
+    case "count": {
+      const total = store.count(store.all());
+      console.log(`You have ${total} note${total === 1 ? "" : "s"}.`);
+      break;
+    }
     case "delete": {
+      if (!rest[0]) {
+        console.log("Usage: notes delete <id>");
+        return;
+      }
       const id = Number(rest[0]);
       const ok = store.remove(id);
       console.log(ok ? `Deleted note #${id}` : `No note #${id} found`);
       break;
     }
     default:
-      console.log("Commands: add <text> | list | search <term> | delete <id>");
+      console.log("Commands: add <text> | list | search <term> | count | delete <id>");
       console.log(`(Session locks after ${config.SESSION_TIMEOUT_MINUTES} minutes of inactivity.)`);
   }
 }
