@@ -24,7 +24,3 @@ Layout: `notes.js` is the entry point, `lib/store.js` loads, saves, and searches
 5. **Let Claude commit it.** Ask: *'Run the tests to confirm they pass, then stage my changes and commit them on a new branch with a corresponding message.'*
 6. **Compare.** Open the commit on GitHub and read Claude's message. Does it explain the change — the *why*, not just the *what* — better than your quick version?
 7. Open the PR against the main repository, not your fork, and submit.
-
-### changes
-1. Create new file test.html
-2. update README.md`
