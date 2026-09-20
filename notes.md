@@ -1,0 +1,1 @@
+The fix was to use .includes() for substring matching instead of exact matching. Substring matching is required to find notes that contain the term. 
