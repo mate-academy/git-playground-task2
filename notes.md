@@ -1,0 +1,1 @@
+Fixed matches in lib/store.js:41 — it was using exact string equality instead of substring search
