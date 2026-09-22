@@ -1,0 +1,1 @@
+matches() function updated to search for the word included in the text
