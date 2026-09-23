@@ -1,0 +1,1 @@
+Replace `===` with `include` because the search needs to find notes that contain the text.
