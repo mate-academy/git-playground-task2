@@ -1,6 +1,7 @@
 # Unit 4 Git playground - Lesson 2
 
 A tiny command-line notes tool, used as the practice repo for Unit 4, Lesson 2 (committing well). The app is a safe sandbox, the task is to make one small change and have Claude commit it with a clear message.
+Claude will append to the description, then commit and push the changes to the cloud.
 
 ### The app
 - `node notes.js add <text>` — add a note
