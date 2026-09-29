@@ -1,0 +1,1 @@
+dans lib/store.js, changer "===" par "includes" pour que la fonction retourne toutes les notes contenant "term".
