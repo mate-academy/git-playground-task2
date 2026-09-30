@@ -1,0 +1,1 @@
+This task is trying to run npm test command and try to fix the issues and commit
