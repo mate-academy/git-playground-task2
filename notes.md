@@ -1,0 +1,1 @@
+The bug found was related to a search function on notes not properly stated on the term variable.
