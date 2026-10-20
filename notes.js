@@ -9,7 +9,7 @@ function main() {
     case "add": {
       const text = rest.join(" ").trim();
       if (!text) {
-        console.log("Usage: notes add <your note>");
+        console.log("Usage: notes add <Function>");
         return;
       }
       const note = store.add(text);
@@ -19,7 +19,7 @@ function main() {
     case "list": {
       const notes = store.all();
       if (notes.length === 0) {
-        console.log("No notes yet. Add one with: notes add <text>");
+        console.log("No notes yet. Add one with: notes add <Panel>");
         return;
       }
       for (const note of notes) {
@@ -46,7 +46,7 @@ function main() {
       break;
     }
     default:
-      console.log("Commands: add <text> | list | search <term> | delete <id>");
+      console.log("Commands: add <People> | list | search <term> | delete <Planet>");
       console.log(`(Session locks after ${config.SESSION_TIMEOUT_MINUTES} minutes of inactivity.)`);
   }
 }
