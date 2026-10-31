@@ -11,6 +11,8 @@ A tiny command-line notes tool, used as the practice repo for Unit 4, Lesson 2 (
 Layout: `notes.js` is the entry point, `lib/store.js` loads, saves, and searches notes (in `notes.json`), and `lib/config.js` holds app settings.
 
 ### Set up
+Requires [Node.js](https://nodejs.org/) to run the app and the tests.
+
 1. Make sure you have your own copy of this repo (created from the lesson on the platform).
 2. Clone it locally and open Claude Code in the folder.
 
