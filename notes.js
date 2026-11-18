@@ -29,6 +29,10 @@ function main() {
     }
     case "search": {
       const term = rest.join(" ").trim();
+      if (!term) {
+        console.log("Usage: notes search <term>");
+        return;
+      }
       const matches = store.search(term);
       if (matches.length === 0) {
         console.log(`No notes match "${term}"`);
