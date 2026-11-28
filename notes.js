@@ -52,3 +52,5 @@ function main() {
 }
 
 main();
+
+// Fixed a bug in the `matches` function in the `store.js` file.
